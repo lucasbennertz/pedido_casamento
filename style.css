@@ -1,0 +1,30 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    flex-direction: column;
+    border: solid black 1px;
+}
+.buttons{
+    border: solid black 1px;
+    width: 95vw;
+    height: 50vh;
+    display: flex;
+    position: relative;
+}
+button{
+    height: 6vh;
+    width: 10vw;
+}
+#aceitou{
+    background-color: green;
+    position: absolute;
+    left: 30%;
+}
+#naopodi{
+    background-color: red;
+    position: absolute;
+    left: 60%;
+    top: 0;
+}
