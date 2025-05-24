@@ -1,5 +1,6 @@
 const botaoNao = document.getElementById("naopodi");
 const container = document.querySelector(".buttons");
+const botaoSim = document.getElementById("aceitou");
 
 botaoNao.addEventListener("click", () => {
   const larguraMax = container.clientWidth - botaoNao.offsetWidth;
@@ -10,4 +11,7 @@ botaoNao.addEventListener("click", () => {
 
   botaoNao.style.left = novaLeft + "px";
   botaoNao.style.top = novaTop + "px";
+});
+botaoSim.addEventListener("click", () => {
+  document.location.href()
 });
